@@ -5,9 +5,9 @@
 #include<fcntl.h>
 #include<sys/errno.h>
 #include<unistd.h>
-#include "headers/SysMount.hpp"
-#include "headers/ServiceStart.hpp"
-#include "headers/Shutdown.hpp"
+#include "SysMount.hpp"
+#include "ServiceStart.hpp"
+#include "Shutdown.hpp"
 int main(){
     SysMount();
     ServiceStart();
